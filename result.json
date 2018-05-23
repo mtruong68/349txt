@@ -1,0 +1,21 @@
+{
+  "best_model": "pretrained_pets/best_model/model-3680", 
+  "best_valid_ppl": 4.462473392486572, 
+  "encoding": "utf-8", 
+  "latest_model": "pretrained_pets/save_model/model-9200", 
+  "params": {
+    "batch_size": 100, 
+    "dropout": 0.0, 
+    "embedding_size": 0, 
+    "hidden_size": 128, 
+    "input_dropout": 0.0, 
+    "learning_rate": 0.002, 
+    "max_grad_norm": 5.0, 
+    "model": "lstm", 
+    "num_layers": 2, 
+    "num_unrollings": 10, 
+    "vocab_size": 103
+  }, 
+  "test_ppl": 4.299106121063232, 
+  "vocab_file": "pretrained_pets/vocab.json"
+}
