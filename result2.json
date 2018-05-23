@@ -1,0 +1,20 @@
+{
+  "best_model": "trained_dickens/best_model/model-23716", 
+  "best_valid_ppl": 3.790489673614502, 
+  "encoding": "utf-8", 
+  "latest_model": "trained_dickens/save_model/model-23716", 
+  "params": {
+    "batch_size": 100, 
+    "dropout": 0.0, 
+    "embedding_size": 0, 
+    "hidden_size": 128, 
+    "input_dropout": 0.0, 
+    "learning_rate": 0.002, 
+    "max_grad_norm": 5.0, 
+    "model": "lstm", 
+    "num_layers": 2, 
+    "num_unrollings": 10, 
+    "vocab_size": 83
+  }, 
+  "vocab_file": "trained_dickens/vocab.json"
+}
